@@ -1,0 +1,80 @@
+{
+  "file": "export.xlsx",
+  "sheet": [
+    {
+      "name": "month",
+      "r": [
+        {
+          "index": true,
+          "title": "numpp"
+        },
+        {
+          "title": "H1",
+          "length": [
+            10,
+            100
+          ],
+          "root": 1,
+          "fixed": false,
+          "count": 1000,
+          "hier": [
+            {
+              "fixed": true,
+              "count": 2,
+              "random": [
+                10,
+                100
+              ],
+              "ratio": 0.3
+            }
+          ]
+        },
+        {
+          "title": "H2",
+          "length": [
+            10,
+            100
+          ],
+          "root": 1,
+          "fixed": false,
+          "count": 1000,
+          "hier": [
+            {
+              "fixed": true,
+              "count": 2,
+              "random": [
+                10,
+                100
+              ],
+              "ratio": 0.3
+            }
+          ]
+        }
+      ],
+      "c": [
+        {
+          "length": [
+            10,
+            100
+          ],
+          "root": 3
+        },
+        {
+          "length": [
+            10,
+            100
+          ],
+          "root": 4
+        }
+      ]
+    },
+    {
+      "name": "quarter",
+      "copy": "month"
+    },
+    {
+      "name": "year",
+      "copy": "month"
+    }
+  ]
+}
