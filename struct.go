@@ -9,7 +9,7 @@ type Config struct {
 // ConfigSheet struct which contains
 type ConfigSheet struct {
 	Name string      `json:"name"`
-	Copy string      `json:"copy"`
+	Ref  string      `json:"ref"`
 	Row  []ConfigDim `json:"r"`
 	Col  []ConfigDim `json:"c"`
 }

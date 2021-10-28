@@ -70,11 +70,11 @@
     },
     {
       "name": "quarter",
-      "copy": "month"
+      "ref": "month"
     },
     {
       "name": "year",
-      "copy": "month"
+      "ref": "month"
     }
   ]
 }
