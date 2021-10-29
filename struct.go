@@ -34,13 +34,19 @@ type ConfigHier struct {
 }
 
 type sheet struct {
+	name     string
 	cfgSheet *ConfigSheet
-	row      []dim
-	col      []dim
+	dims     *sheetDim
+}
+
+type sheetDim struct {
+	row []dim
+	col []dim
 }
 
 type dim struct {
 	cfgDim *ConfigDim
+	size   int
 	root   []dimItem
 }
 

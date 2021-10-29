@@ -20,7 +20,7 @@
           "hier": [
             {
               "fixed": true,
-              "count": 2,
+              "count": 1820,
               "random": [
                 10,
                 100
@@ -41,7 +41,28 @@
           "hier": [
             {
               "fixed": true,
-              "count": 2,
+              "count": 114,
+              "random": [
+                10,
+                100
+              ],
+              "ratio": 0.3
+            }
+          ]
+        },
+        {
+          "title": "H3",
+          "length": [
+            10,
+            100
+          ],
+          "root": 1,
+          "fixed": false,
+          "count": 1000,
+          "hier": [
+            {
+              "fixed": true,
+              "count": 4,
               "random": [
                 10,
                 100
@@ -54,17 +75,24 @@
       "c": [
         {
           "length": [
-            10,
-            100
+            5,
+            10
           ],
-          "root": 3
+          "root": 18
         },
         {
           "length": [
-            10,
-            100
+            5,
+            10
           ],
-          "root": 4
+          "root": 2
+        },
+        {
+          "length": [
+            5,
+            10
+          ],
+          "root": 3
         }
       ]
     },
