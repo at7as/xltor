@@ -1,1 +1,5 @@
 # xltor
+
+#### todo
+* makefiles
+* templates

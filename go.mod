@@ -1,6 +1,6 @@
-module xltor
+module github.com/at7as/xltor
 
-go 1.17
+go 1.18
 
 require github.com/xuri/excelize/v2 v2.4.1
 
